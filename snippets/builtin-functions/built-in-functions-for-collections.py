@@ -66,3 +66,17 @@ print(l)
 # 1
 # 12
 # 45
+
+# reversed function
+l = [10, 12, 1, 4, 7, 11]
+lr = reversed(l)
+for i, j in zip(l, lr):
+    print(i, j)
+
+# output
+# 10 11
+# 12 7
+# 1 4
+# 4 1
+# 7 12
+# 11 10
